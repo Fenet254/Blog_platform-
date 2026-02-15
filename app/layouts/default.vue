@@ -32,7 +32,7 @@
 }
 
 .footer {
-  background: rgba(20, 20, 30, 0.95);
+  background: rgba(213, 213, 245, 0.95);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding: 60px 24px 32px;
 }
@@ -53,7 +53,7 @@
 
 .brand-icon {
   font-size: 24px;
-  color: #a78bfa;
+  color: #0a0a0a;
 }
 
 .brand-text {

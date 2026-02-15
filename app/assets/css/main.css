@@ -1,6 +1,4 @@
-/* ThoughtFlow Blog Platform - Global Styles */
 
-/* CSS Reset & Base */
 *,
 *::before,
 *::after {
@@ -19,8 +17,8 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.6;
-  color: #ffffff;
-  background-color: #0f0f14;
+  color: #100f0f;
+  background-color: #eeeef9;
   min-height: 100vh;
 }
 
@@ -39,11 +37,10 @@ body::before {
   z-index: -1;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
-  color: #ffffff;
+  color: #0f0e0e;
 }
 
 a {
@@ -62,13 +59,13 @@ button {
   cursor: pointer;
 }
 
-/* Selection */
+
 ::selection {
   background: rgba(167, 139, 250, 0.4);
-  color: #ffffff;
+  color: #111010;
 }
 
-/* Scrollbar */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -86,13 +83,12 @@ button {
   background: rgba(167, 139, 250, 0.5);
 }
 
-/* Focus States */
 :focus-visible {
   outline: 2px solid rgba(167, 139, 250, 0.6);
   outline-offset: 2px;
 }
 
-/* Utility Classes */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -111,7 +107,7 @@ button {
   border: 0;
 }
 
-/* Animations */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -141,7 +137,6 @@ button {
   }
 }
 
-/* Page Transitions */
 .page-enter-active,
 .page-leave-active {
   transition: all 0.3s ease;

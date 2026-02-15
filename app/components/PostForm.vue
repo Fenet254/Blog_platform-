@@ -213,7 +213,7 @@ const handleCancel = () => {
 .form-textarea:focus,
 .form-select:focus {
   outline: none;
-  border-color: #a78bfa;
+  border-color: #050506;
   box-shadow: 0 0 0 4px rgba(167, 139, 250, 0.15);
 }
 
