@@ -184,7 +184,7 @@ const handleCancel = () => {
   gap: 10px;
   font-size: 14px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(250, 244, 244, 0.85);
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -203,7 +203,7 @@ const handleCancel = () => {
   background: rgba(20, 20, 30, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
-  color: #fff;
+  color: #f6f1f1;
   font-size: 16px;
   font-family: inherit;
   transition: all 0.3s ease;
@@ -219,7 +219,7 @@ const handleCancel = () => {
 
 .form-input::placeholder,
 .form-textarea::placeholder {
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(14, 0, 0, 0.35);
 }
 
 .form-textarea {
@@ -284,13 +284,13 @@ const handleCancel = () => {
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(15, 0, 0, 0.05);
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(8, 0, 0, 0.25);
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #020008 0%, #020007 100%);
   color: #fff;
 }
 

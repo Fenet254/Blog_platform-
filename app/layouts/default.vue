@@ -8,11 +8,11 @@
       <div class="footer-content">
         <div class="footer-brand">
           <span class="brand-icon">✦</span>
-          <span class="brand-text">ThoughtFlow</span>
+          <span class="brand-text">SPEC</span>
         </div>
-        <p class="footer-tagline">Where ideas come to life</p>
+        <p class="footer-tagline">Software Programming and Engeenering Club</p>
         <div class="footer-bottom">
-          <p class="copyright">© 2026 ThoughtFlow. Built with passion.</p>
+          <p class="copyright">© 2026 ThoughtFlow. B</p>
         </div>
       </div>
     </footer>
@@ -32,13 +32,13 @@
 }
 
 .footer {
-  background: rgba(213, 213, 245, 0.95);
+  background: rgba(0, 0, 15, 0.95);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding: 60px 24px 32px;
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   text-align: center;
 }
@@ -57,14 +57,14 @@
 }
 
 .brand-text {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 900;
   color: #fff;
   letter-spacing: -0.5px;
 }
 
 .footer-tagline {
-  font-size: 14px;
+  font-size: 19px;
   color: rgba(255, 255, 255, 0.5);
   margin: 0 0 32px 0;
 }
@@ -75,7 +75,7 @@
 }
 
 .copyright {
-  font-size: 13px;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.4);
   margin: 0;
 }

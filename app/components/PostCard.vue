@@ -62,7 +62,7 @@ const getAuthorInitial = (author) => {
 
 <style scoped>
 .post-card {
-  background: rgba(30, 30, 40, 0.6);
+  background: rgba(8, 8, 9, 0.95);
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -81,14 +81,13 @@ const getAuthorInitial = (author) => {
 
 .card-image-wrapper {
   position: relative;
-  width: 100%;
-  height: 220px;
+  width: 500px;
+  height: 150px;
   overflow: hidden;
 }
 
 .card-image {
-  width: 100%;
-  height: 100%;
+ 
   object-fit: cover;
   transition: transform 0.6s ease;
 }
@@ -113,8 +112,8 @@ const getAuthorInitial = (author) => {
   top: 16px;
   left: 16px;
   padding: 6px 14px;
-  background: rgba(167, 139, 250, 0.9);
-  color: #fff;
+  background: rgba(237, 236, 241, 0.9);
+  color: #100d0d;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
@@ -136,7 +135,7 @@ const getAuthorInitial = (author) => {
   gap: 10px;
   margin-bottom: 14px;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(246, 244, 244, 0.5);
 }
 
 .meta-divider {
@@ -146,18 +145,18 @@ const getAuthorInitial = (author) => {
 .card-title {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: #ebe3e3;
   line-height: 1.4;
   margin: 0 0 12px 0;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+
   -webkit-box-orient: vertical;
   overflow: hidden;
   transition: color 0.3s ease;
 }
 
 .post-card:hover .card-title {
-  color: #a78bfa;
+  color: #f2eded;
 }
 
 .card-excerpt {
@@ -166,7 +165,6 @@ const getAuthorInitial = (author) => {
   line-height: 1.7;
   margin: 0 0 20px 0;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   flex: 1;
@@ -192,8 +190,8 @@ const getAuthorInitial = (author) => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
-  color: #fff;
+  background: rgba(239, 239, 243, 0.95);
+  color: #9007f2;
   font-size: 13px;
   font-weight: 700;
   border-radius: 50%;
@@ -202,7 +200,7 @@ const getAuthorInitial = (author) => {
 .author-name {
   font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(242, 237, 237, 0.8);
 }
 
 .read-more {

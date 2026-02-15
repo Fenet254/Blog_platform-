@@ -83,10 +83,10 @@ const handleCancel = () => {
 .page-badge {
   display: inline-block;
   padding: 8px 16px;
-  background: rgba(167, 139, 250, 0.15);
+  background: rgba(2, 1, 7, 0.15);
   border: 1px solid rgba(167, 139, 250, 0.3);
   border-radius: 20px;
-  color: #a78bfa;
+  color: #03000a;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -97,21 +97,21 @@ const handleCancel = () => {
 .page-title {
   font-size: clamp(32px, 5vw, 48px);
   font-weight: 800;
-  color: #fff;
+  color: #150101;
   margin: 0 0 16px 0;
   letter-spacing: -0.5px;
 }
 
 .page-subtitle {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(245, 240, 240, 0.6);
   margin: 0;
   max-width: 500px;
   margin: 0 auto;
 }
 
 .form-container {
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -128,7 +128,7 @@ const handleCancel = () => {
 .loading-spinner {
   width: 48px;
   height: 48px;
-  border: 3px solid rgba(167, 139, 250, 0.2);
+  border: 3px solid rgba(7, 1, 24, 0.2);
   border-top-color: #a78bfa;
   border-radius: 50%;
   animation: spin 1s linear infinite;
@@ -139,7 +139,7 @@ const handleCancel = () => {
 }
 
 .loading-state p {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(7, 4, 4, 0.6);
   font-size: 16px;
 }
 
@@ -156,14 +156,14 @@ const handleCancel = () => {
 
 .not-found-icon {
   font-size: 64px;
-  color: #a78bfa;
+  color: #0a090f;
   margin-bottom: 24px;
   opacity: 0.6;
 }
 
 .not-found-state h2 {
   font-size: 32px;
-  color: #fff;
+  color: #100e0e;
   margin: 0 0 12px 0;
 }
 
@@ -174,8 +174,8 @@ const handleCancel = () => {
 
 .back-home {
   padding: 14px 28px;
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #050110 0%, #8b5cf6 100%);
+  color: #141010;
   text-decoration: none;
   font-weight: 600;
   border-radius: 12px;

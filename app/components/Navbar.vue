@@ -3,7 +3,7 @@
     <div class="navbar-container">
       <NuxtLink to="/" class="navbar-brand">
         <span class="brand-icon">✦</span>
-        <span class="brand-text">ThoughtFlow</span>
+        <span class="brand-text">SPEC</span>
       </NuxtLink>
       
       <button class="navbar-toggle" @click="toggleMenu" :class="{ 'is-active': isMenuOpen }">
@@ -87,13 +87,13 @@ onMounted(() => {
 }
 
 .navbar-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 90px;
 }
 
 .navbar-brand {
@@ -101,7 +101,7 @@ onMounted(() => {
   align-items: center;
   gap: 12px;
   text-decoration: none;
-  color: #fff;
+  color: #fbf3f3;
   transition: transform 0.3s ease;
 }
 
@@ -110,7 +110,7 @@ onMounted(() => {
 }
 
 .brand-icon {
-  font-size: 28px;
+  font-size: 30px;
   color: #a78bfa;
   animation: pulse 3s ease-in-out infinite;
 }
@@ -141,7 +141,7 @@ onMounted(() => {
   align-items: center;
   gap: 8px;
   padding: 10px 18px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(246, 242, 242, 0.75);
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
@@ -283,7 +283,7 @@ onMounted(() => {
     right: 0;
     bottom: 0;
     flex-direction: column;
-    background: rgba(15, 15, 20, 0.98);
+    background: rgba(156, 156, 240, 0.98);
     padding: 24px;
     gap: 8px;
     transform: translateX(100%);

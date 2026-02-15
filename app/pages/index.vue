@@ -7,7 +7,7 @@
         <div class="hero-pattern"></div>
       </div>
       <div class="hero-content">
-        <span class="hero-badge">✦ Welcome to ThoughtFlow</span>
+        <span class="hero-badge">✦ Welcome to SPEC</span>
         <h1 class="hero-title">
           Discover <span class="highlight">Inspiring</span> Stories
         </h1>
@@ -144,6 +144,7 @@ const filterByCategory = (category) => {
   position: absolute;
   inset: 0;
   z-index: 0;
+  background-color: #dcdff3;
 }
 
 .hero-gradient {
@@ -176,7 +177,7 @@ const filterByCategory = (category) => {
   background: rgba(167, 139, 250, 0.15);
   border: 1px solid rgba(167, 139, 250, 0.3);
   border-radius: 30px;
-  color: #a78bfa;
+  color: #070118;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -187,7 +188,7 @@ const filterByCategory = (category) => {
 .hero-title {
   font-size: clamp(36px, 6vw, 64px);
   font-weight: 800;
-  color: #fff;
+  color: #140303;
   line-height: 1.1;
   margin: 0 0 24px 0;
   letter-spacing: -1px;
@@ -203,7 +204,7 @@ const filterByCategory = (category) => {
 
 .hero-subtitle {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(17, 4, 4, 0.6);
   line-height: 1.8;
   margin: 0 0 40px 0;
   max-width: 600px;
@@ -227,13 +228,13 @@ const filterByCategory = (category) => {
   display: block;
   font-size: 32px;
   font-weight: 800;
-  color: #fff;
+  color: #070606;
   line-height: 1;
 }
 
 .stat-label {
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(18, 14, 14, 0.5);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 8px;
@@ -258,29 +259,33 @@ const filterByCategory = (category) => {
 }
 
 .section-header {
+  margin-top: 50px;
   text-align: center;
   margin-bottom: 48px;
+  font-weight: 600;
 }
 
 .section-title {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #120101;
   margin: 0 0 12px 0;
 }
 
 .title-icon {
+
   color: #a78bfa;
   font-size: 20px;
 }
 
 .section-subtitle {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(14, 1, 1, 0.5);
   margin: 0;
 }
 
@@ -307,7 +312,7 @@ const filterByCategory = (category) => {
 
 .empty-state h3 {
   font-size: 24px;
-  color: #fff;
+  color: #0e0101;
   margin: 0 0 12px 0;
 }
 
@@ -321,7 +326,7 @@ const filterByCategory = (category) => {
   align-items: center;
   padding: 14px 28px;
   background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
-  color: #fff;
+  color: #140202;
   text-decoration: none;
   font-weight: 600;
   border-radius: 12px;
@@ -335,15 +340,18 @@ const filterByCategory = (category) => {
 
 /* Categories Section */
 .categories-section {
+  align-items: center;
   max-width: 1200px;
-  margin: 80px auto 0;
+  margin: 60px auto 0;
   padding: 0 24px;
 }
 
 .categories-grid {
+  margin-bottom: 50px;
+  margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 20px;
+  gap: 30px;
 }
 
 .category-card {
@@ -352,8 +360,8 @@ const filterByCategory = (category) => {
   align-items: center;
   gap: 10px;
   padding: 28px 20px;
-  background: rgba(30, 30, 40, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 8, 0.5);
+  border: 1px solid rgba(8, 0, 0, 0.08);
   border-radius: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -372,7 +380,7 @@ const filterByCategory = (category) => {
 .category-name {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #080000;
 }
 
 .category-count {

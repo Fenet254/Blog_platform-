@@ -47,10 +47,10 @@ const handleCancel = () => {
 .page-badge {
   display: inline-block;
   padding: 8px 16px;
-  background: rgba(167, 139, 250, 0.15);
+  background: rgba(5, 1, 18, 0.15);
   border: 1px solid rgba(167, 139, 250, 0.3);
   border-radius: 20px;
-  color: #a78bfa;
+  color: #300bc3;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -60,22 +60,23 @@ const handleCancel = () => {
 
 .page-title {
   font-size: clamp(32px, 5vw, 48px);
-  font-weight: 800;
-  color: #fff;
+  font-weight: 900;
+  color: #0c0303;
   margin: 0 0 16px 0;
   letter-spacing: -0.5px;
 }
 
 .page-subtitle {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(19, 2, 2, 0.6);
   margin: 0;
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .form-container {
-  max-width: 800px;
+  background-color: #a6a5ca;
+  max-width: 600px;
   margin: 0 auto;
 }
 

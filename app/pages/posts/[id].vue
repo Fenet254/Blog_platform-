@@ -165,6 +165,13 @@ const handleDelete = () => {
 }
 
 .hero-image-wrapper {
+ 
+  margin-top: 30px;margin-right: 50px;
+  padding-right: 100px;
+ 
+
+  width: 120%;
+  height: 500px;
   position: absolute;
   inset: 0;
 }
@@ -172,7 +179,7 @@ const handleDelete = () => {
 .hero-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  
 }
 
 .hero-overlay {
@@ -205,8 +212,8 @@ const handleDelete = () => {
 
 .category-badge {
   padding: 6px 16px;
-  background: rgba(167, 139, 250, 0.9);
-  color: #fff;
+  background: rgba(7, 1, 19, 0.9);
+  color: #f7f4f4;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -215,7 +222,7 @@ const handleDelete = () => {
 }
 
 .meta-divider {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(19, 0, 0, 0.4);
 }
 
 .meta-date,
@@ -227,7 +234,7 @@ const handleDelete = () => {
 .post-title {
   font-size: clamp(32px, 5vw, 48px);
   font-weight: 800;
-  color: #fff;
+  color: #140202;
   line-height: 1.2;
   margin: 0 0 28px 0;
   letter-spacing: -0.5px;
@@ -246,7 +253,7 @@ const handleDelete = () => {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
-  color: #fff;
+  color: #090101;
   font-size: 18px;
   font-weight: 700;
   border-radius: 50%;
@@ -260,7 +267,7 @@ const handleDelete = () => {
 .author-name {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #eee9e9;
 }
 
 .author-role {
@@ -268,24 +275,30 @@ const handleDelete = () => {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Content */
 .post-content {
-  max-width: 800px;
+  margin-top: 30px;
+  border-radius: 24px;
+  background-color: hsl(0, 22%, 95%);
+  max-width: 1000px;
   margin: 0 auto;
   padding: 60px 24px;
+  margin-bottom: 100px;
 }
 
 .content-wrapper {
-  background: rgba(30, 30, 40, 0.5);
+   max-width: 70%;
+   margin-left: 100px;
+  background: rgba(60, 60, 160, 0.5);
   border-radius: 24px;
-  padding: 48px;
+  padding: 70px;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .content-lead {
+ 
   font-size: 22px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  color: rgba(14, 1, 1, 0.9);
   line-height: 1.7;
   margin: 0 0 36px 0;
   padding-bottom: 36px;
@@ -294,7 +307,7 @@ const handleDelete = () => {
 
 .content-body {
   font-size: 17px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(5, 0, 0, 0.8);
   line-height: 1.9;
 }
 
@@ -312,18 +325,19 @@ const handleDelete = () => {
   gap: 12px;
   margin-top: 40px;
   padding-top: 32px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(3, 0, 0, 0.1);
 }
 
 .tag-label {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  color: rgba(9, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 600px;
 }
 
 .tag {
   padding: 8px 16px;
-  background: rgba(167, 139, 250, 0.15);
-  color: #a78bfa;
+  background: rgba(0, 0, 0, 0.15);
+  color: #020008;
   font-size: 14px;
   font-weight: 600;
   border-radius: 20px;
@@ -346,18 +360,18 @@ const handleDelete = () => {
   gap: 10px;
   padding: 12px 24px;
   background: rgba(30, 30, 40, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(6, 0, 0, 0.1);
   border-radius: 12px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
 .nav-back:hover,
 .nav-edit:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(4, 0, 0, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -398,9 +412,9 @@ const handleDelete = () => {
   display: flex;
   align-items: center;
   gap: 14px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  color: #100e0e;
   margin: 0 0 32px 0;
 }
 
@@ -468,8 +482,9 @@ const handleDelete = () => {
 }
 
 .back-home {
+  background-color: #090101;
   padding: 14px 28px;
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+ 
   color: #fff;
   text-decoration: none;
   font-weight: 600;
